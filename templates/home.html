@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container border border-primary">
+        <div class="row">
+            <div class="col-md-12 p-2">
+                <h3>Data from Context Variable</h3>
+                <p>IP requested:  {{ data.ip }}</p>
+                <p>Country:  {{ data.country }}</p>
+            </div>
+            <br>
+            <div class="col-md-12 p-2">
+                <h3>Data from API result directly</h3>
+                <p>To see this, comment in last lines of views.py</p>
+                <p>IP requested:  {{ ip }}</p>
+                <p>Country:  {{ country_name }}</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
