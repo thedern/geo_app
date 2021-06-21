@@ -2,7 +2,7 @@
 django restful api consumer example app
 
 
-This is a simple app that just dose a geo-lookup on an ip address
+This is a simple app that just does a geo-lookup on an ip address
 The sample IP is in views.py
 The API is hardcoded in views.py (I know... this is bad, bad practice)
 
